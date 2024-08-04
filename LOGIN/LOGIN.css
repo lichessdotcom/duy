@@ -1,0 +1,82 @@
+body{
+    margin: 130px 100px 60px 420px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    height:50vh;
+    width:100vh;
+    background-color: rgb(209, 137, 215);
+   
+
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 15px 15px 10px rgba(87, 36, 36, 0.1);
+    font-family: Arial, sans-serif;
+
+    
+    
+}
+
+
+.eee{
+    margin-top: 40px;
+    
+    width: 80%;
+    height:35px;
+    background-color: #4CAF50;
+    font-size: 17px;
+    
+    color: white;
+    border-color: #4CAF50;
+    cursor: pointer;
+
+}
+.eee:hover{
+    opacity: 0.8;
+}
+#fname{
+    width:300px;
+    height:30px;
+}
+#lname{
+    width:300px;
+    height:30px;
+}
+img{
+    border-radius: 100%;
+    height: 150px;
+    width:150px;
+    margin-top: 110px;
+}
+.VVV{
+    background-color: rgb(232, 223, 223);
+    width: 100%;
+    height:100%;
+    padding-left: 90px;
+   
+ 
+}
+.EEE{
+   padding-left:40px ;
+    padding-right: 40px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(115, 202, 219);
+}
+.đăngki_button{
+    background-color: aliceblue;
+    
+   
+}
+.nút_href{
+    text-decoration: none;  
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/masterPART3.js">
+</head>
+<script src="masterPART3.js">
+    
+    var listStudent=[
+    {
+        name: "truong",
+    age:20,
+    address:"binh phuoc", 
+    },
+    {
+        name:"tram",
+        age:17,
+        address:"longan"
+    },
+    {
+        name:"trung",
+        age:19,
+        address:"binh phuoc",
+
+    },
+    {
+        name:"tri",
+        age:16,
+        address:"dong thap"
+    },
+    {
+        name:"khang",
+        age:18,
+        address:"binh duong"
+    },
+]
+for(let i=0;i<listStudent.length;i++){
+    var student=listStudent[i];
+    if(student.age>=18){
+        console.log(student);
+    }
+    
+}
+var tam=0;
+var sum=0
+for(let i=0;i<listStudent.length;i++){
+    var student=listStudent[i];
+    sum=sum+student.age;
+    if(tam<student.age){
+        tam=student;
+    }
+}
+console.log(sum)
+console.log(tam)
+for(var student of listStudent){
+    sum=sum+student.age;
+    if(tam<student.age){
+        tam=student;
+    }
+}
+</script>
+<body>
+    
+</body>
+</html>

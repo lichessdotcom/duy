@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .myStyle {
+          background-color: green;
+          padding: 16px;
+          display: flex;
+
+        }
+        .myStyle1 {
+          background-color: rgb(0, 107, 128);
+          padding: 16px;
+          display: flex;
+          flex-direction: column;
+
+        }
+        </style>
+        
+        
+        
+        <button onclick="myFunction()">ngang</button>
+        <button onclick="myFunction1()">doc</button>
+        
+        
+        <div id="myDIVV">
+            <div id="myDIV">haha1</div>
+        <div id="myDIV">haha2</div>
+        <div id="myDIV">haha3</div>
+    </div>
+        <script>
+            function myFunction() {
+              const list = document.getElementById("myDIVV").classList;
+              list.add("myStyle");
+              list.remove("myStyle1")
+            }
+            function myFunction1() {
+              const list = document.getElementById("myDIVV").classList;
+              list.add("myStyle1");
+            }
+            </script>
+            
+    
+</body>
